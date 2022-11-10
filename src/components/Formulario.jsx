@@ -40,7 +40,7 @@ const Formulario = () => {
     }
     guardarPaciente({ nombre, propietario, email, sintomas, fecha, id });
     setAlerta({
-      msg:'Guarado correctamente'
+      msg:'Guardado correctamente'
     });
     setNombre('')
     setPropieratio('')
